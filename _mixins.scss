@@ -1,0 +1,28 @@
+@mixin button() {
+    border-radius: 60px;
+    border: none;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+@mixin section-title() {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 96px;
+    color: var(--color-grey);
+}
+
+@mixin service-box() {
+    height: 504px;
+    width: 385px;
+    border-radius: 30px;
+    background-color: var(--color-white);
+    box-shadow: 0px 10px 30px 0px var(--color-shadow-black);
+}
+
+@mixin testymonial-box() {
+    width: 577px;
+    border: 1px solid var(--color-very-light-green);
+    border-radius: 40px;
+}
